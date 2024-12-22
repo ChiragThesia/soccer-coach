@@ -1,0 +1,13 @@
+credentials:
+  usernames:
+    admin:
+      email: admin@example.com
+      name: Admin User
+      password: $2b$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewY5c0OztkYEPj2y # Default password: admin123
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: soccer_coach_cookie
+preauthorized:
+  emails:
+    - admin@example.com
